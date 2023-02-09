@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Downloading!"
-JSON=$(curl -s "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=pt-BR")
+JSON=$(curl -s "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US")
 wallpaper_path=$(echo $JSON | jq -r ".images[0].url")
 title=$(echo $JSON | jq -r ".images[0].title")
 startdate=$(echo $JSON | jq -r ".images[0].startdate")
