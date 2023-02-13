@@ -1,3 +1,6 @@
+# nix flake build
+/result
+
 # Prerequisites
 *.d
 
