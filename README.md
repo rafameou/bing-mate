@@ -1,5 +1,6 @@
 # bing-mate
 ![woah](print.png)
+
 Small program to get the current bing "today in bing" image and set it as wallpaper on mate-desktop.
 Badly written because I reused my first GTK-3 program as a base (that's why you can see some browser references), if you see any problem with licensing, leaks (there are many) or bugs just make a PR or issue. 
 
